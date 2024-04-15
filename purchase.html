@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase</title>
+	<style>
+        body {
+            background-image: url('bg3.jpeg');
+            background-size: cover;
+            text-align: center;
+        }
+
+        .product {
+            margin: 20px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>	
+</head>
+<body>
+    <h2>Select Payment Method:</h2>
+    <select>
+        <option value="credit">Credit Card</option>
+        <option value="paypal">Paytm</option>
+	<option value="cash">cash on delivery</option>
+    </select>
+    <br><br>
+    <button onclick="window.location.href='payment_success.html'">Submit</button>
+</body>
+</html>
+
